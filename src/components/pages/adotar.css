@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #e9e9e9;
+  background-color: #78b3ff;
+
+}
+
+.new-animals {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.new-animals h3 {
+  font-size: 24px;
+  color: #e9e9e9;
+  margin-bottom: 10px;
+}
+
+.animal-card {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 800px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.animal-card img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+.animal-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.animal-info p {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.animal-info p strong {
+  font-weight: bold;
+  color: #368dff;
+}
+
+.contact-us-btn {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 0.3em 1em;
+  border: none;
+  border-radius: 25px;
+  font-size: 0.9em;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 1em;
+  transition: background 0.2s, transform 0.2s;
+  box-shadow: 0 2px 8px rgba(76, 175, 80, 0.08);
+}
+
+.contact-us-btn:hover,
+.contact-us-btn:focus {
+  background-color: #388e3c;
+  transform: translateY(-2px) scale(1.04);
+  outline: none;
+}
